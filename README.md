@@ -29,13 +29,16 @@ For better understanding of project, read the files in the following order:
 -----
 
 ### metadata.ipynb 
+Creates three major dictionaries.
+
 ![metadata_1](https://github.com/bishnarender/1st-and-future-player-contact-detection/assets/49610834/4cf824f9-10f5-4292-8fd7-01c32cca8bf8)
 
 -----
 
 ### xgb_pre.ipynb
 The xgb_pre.ipynb trains the xgb model for player-to-ground contact detection. At a particular step (say 25) features are [s, dis, dir, o, a, sa, x, y], total eight features. Then at this particular step 392 more features are created by wondering over these eight features over two windows [-25,-1] and [1,24]. That means generating these eight features over 25 steps prior and 24 steps later from the given step (say 25). Thus, forming a total of 400 features. The first feature of these 400 is defined as (for particular step 25):
-<center> s_-25 = ['s' value at step 25] - ['s' value at step 0 i.e. 25-25]</center>
+
+<p align="center">s_-25 = ['s' value at step 25] - ['s' value at step 0 i.e. 25-25]</p>
 
 -----
 
