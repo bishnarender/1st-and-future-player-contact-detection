@@ -82,6 +82,8 @@ This problem appears to resemble an action classification task rather than a sta
 
 CSN (Channel-Separated Convolutional Networks). In a standard CNN, convolutional filters operate on all input channels simultaneously. However, in CSNs, the channels are split into groups, and each group is convolved with a different set of filters. This separation of channels allows the network to learn specialized filters for different groups of channels, enabling more diverse and effective feature extraction. <b>Channel separation in CSN regularizes the model and prevents overfitting</b>.
 
+![csn](https://github.com/bishnarender/1st-and-future-player-contact-detection/assets/49610834/e01fb0ad-05b1-46fb-913a-be4ae1ca1578)
+
 Channel-separated networks use group convolution as their main building block. Depthwise convolution is the extreme version of group convolution where the number of groups is equal to the number of input and output channels. 
 
 ![model](https://github.com/bishnarender/1st-and-future-player-contact-detection/assets/49610834/63b7d70b-cc4e-42d1-91ed-ce973921e6cf)
