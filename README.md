@@ -1,5 +1,5 @@
-# 1st-and-future-player-contact-detection
-## 20th place score achieved.
+## 1st-and-future-player-contact-detection
+## score at 20th position is achieved.
 <kbd>![nfl_submission](https://github.com/bishnarender/1st-and-future-player-contact-detection/assets/49610834/c9891c29-e4ec-4f96-8f81-00c1a487fc7a)</kbd>
 
 Project is completed over just 1 TB hard disk. 
