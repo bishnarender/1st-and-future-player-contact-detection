@@ -4,7 +4,7 @@
 
 Project is completed over just 1 TB hard disk. 
 
-Data is partitioned over only 5 folds, instead of 8-10 folds even the data is huge in size (240 videos covers approx. 2.5 TB space).
+Data is partitioned over only 5 folds, instead of 8-10 folds even the data is huge in size (240 videos covers approx. 2.5 TB space after extraction of frames).
 
 Player-to-ground contact detection is trained over approx. 80 videos (out of 240 videos). 
 
